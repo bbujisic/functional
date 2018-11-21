@@ -1,0 +1,27 @@
+{
+  "name": "bbujisic/functional",
+  "description": "Yet another take on functional primitives for PHP",
+  "keywords": [
+    "functional"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Branislav Bujisic",
+      "homepage": "https://bujisic.com"
+    }
+  ]
+  "autoload": {
+    "psr-4": {
+      "bbujisic\\functional\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "bbujisic\\functional\\tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
